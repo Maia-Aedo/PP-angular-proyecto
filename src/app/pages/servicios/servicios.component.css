@@ -1,0 +1,73 @@
+/* jumbotron */
+.jumbotron {
+	background: #e8dbd3;
+	color: #75474a;
+	text-align: center;
+    margin-left: 55px;
+    margin-right: 65px;
+}
+.jumbotron p {
+	color: #856965;
+	font-size: 20px;
+    text-transform: uppercase;
+}
+.headline {
+    font: 100 3em/1 fantasy;
+    color: #75474a !important;
+    font-size: 40px;
+}
+/* table */
+table{
+    width:100%;
+    table-layout: fixed;
+}
+.tbl-header{
+    background-color: #856965;
+}
+.tbl-content{
+    height:200px;
+    overflow-x:auto;
+    margin-top: 0px;
+    border: 1px solid #856965;
+}
+th{
+    padding: 20px 15px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+}
+td{
+    padding: 15px;
+    text-align: center;
+    vertical-align:middle;
+    font-weight: 300;
+    color: black;
+    border-bottom: solid 1px #edd6c9;
+    font-size: 15px;
+}
+section{
+    margin: 50px;
+}
+/*FAQs */
+.accordion {
+    margin-right: 80px;
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+button {
+    font-size: 15px;
+    font-family: montserrat;
+    background-color: #edd6c9;
+    color: black;
+}
+.accordion-header {
+    background-color: #e8dbd3
+}
+.content {
+    font-size: 15px;
+    font-family: montserrat;
+}
+  

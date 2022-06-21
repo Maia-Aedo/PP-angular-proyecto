@@ -1,0 +1,8 @@
+.example-container {
+	width: 400px;
+	height: 200px;
+	margin: 10px;
+	border: 1px solid #555;
+	background: #e6bcb5;
+	border-bottom: 1px #7F7F7F solid;
+}
