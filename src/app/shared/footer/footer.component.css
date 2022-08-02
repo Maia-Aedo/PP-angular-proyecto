@@ -3,11 +3,11 @@ section {
   padding: 60px 0;
 }
 .site-footer {
-  background-color:#b69d8f;
+  background-color:black;
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
-  color:#304d63;
+  color:#fff;
 }
 .site-footer hr {
   border-top-color:#fff;
@@ -24,10 +24,10 @@ section {
   letter-spacing:2px
 }
 .site-footer a {
-  color:#7F7F7F;
+  color: lemonchiffon;
 }
 .site-footer a:hover {
-  color: #f6e9e6;
+  color: lemonchiffon;
   text-decoration: dotted;
 }
 .footer-links {
@@ -38,10 +38,10 @@ section {
   display:block
 }
 .footer-links a {
-  color:#737373
+  color:lemonchiffon
 }
 .footer-links a:active,.footer-links a:focus,.footer-links a:hover {
-  color: #f6e9e6;
+  color: lemonchiffon;
   text-decoration:dotted;
 }
 .footer-links.inline li {
@@ -119,17 +119,11 @@ section {
   width:34px;
   font-size:14px
 }
-.social-icons a.gith:hover {
-  background-color:#ffd500
+.social-icons a.instagram:hover {
+  background-color:#ff8800;
 }
-.social-icons a.trello:hover {
-  background-color:#026aa7
-}
-.social-icons a.boots:hover {
-  background-color:#7952b3
-}
-.social-icons a.campus:hover {
-  background-color:#114a94
+.social-icons a.facebook:hover {
+  background-color:#114a94;
 }
 @media (max-width:767px) {
   .social-icons li.title
