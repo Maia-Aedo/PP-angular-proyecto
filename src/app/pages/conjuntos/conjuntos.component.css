@@ -1,0 +1,20 @@
+.bg {
+    background-color: black;
+}
+/* card */
+.example-card {
+	max-width: 350px;
+	max-height: 620px;
+	margin-bottom: 18px;
+	margin-top: 50px;
+	margin-left: 30px;
+}
+
+.mat-card-title {
+	color: #a62e2e;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 5px;
+	text-align: center !important;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
