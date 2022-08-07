@@ -13,13 +13,14 @@ export class ConjuntosComponent implements OnInit {
   }
 
 
-  longText1 = `Sweater de lana, mangas acampanadas`;
-  longText2 = `Jardinero de Jean`;
-  longText3 = `Remera mangas largas de hilo`;
-  longText4 = `Pulover de peluche con perlas y puño`;
-  longText5 = `Pantalón Largo cuadrillé`;
-  longText6 = `Pulover holgado de peluche`;
-  longText7 = `Maxibuso con estampa`;
-  longText8 = `Jean mom con estampa de mariposas`;
-  longText9 = `Polera de hilo`;
+  longText1 = `Conjunto top + short con elástico de algodón estampa mariposa`;
+  longText2 = `Conjunto remera manga francesa + pantalón corte bermuda`;
+  longText3 = `Conjunto top mangas largas + short de peluche`;
+  longText4 = `Conjunto top + pantalón de buzo estampa mariposa`;
+  longText5 = `Conjunto top mostaza + short cuadrilé`;
+  longText6 = `Conjunto camisa de seda con estampa + short de lino`;
+  longText7 = `Conjunto top mangas cortas + mini de poliéster`;
+  longText8 = `Conjunto pijama de lycra`;
+  longText9 = `Conjunto pijama de lycra`;
+    
 }
