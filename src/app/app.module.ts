@@ -19,6 +19,9 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSelectModule } from '@angular/material/select';
 import { MatIconModule } from '@angular/material/icon';
 import { MatPaginatorModule } from '@angular/material/paginator';
+import { FormsModule } from '@angular/forms';
+import { FormBuilder } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -41,7 +44,10 @@ import { MatPaginatorModule } from '@angular/material/paginator';
     MatButtonModule,
     MatSelectModule,
     MatIconModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    FormsModule,
+    FormBuilder,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
