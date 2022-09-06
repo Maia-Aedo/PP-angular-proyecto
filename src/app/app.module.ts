@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
+
 import { AppComponent } from './app.component';
 import { MenuComponent } from './shared/menu/menu.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
@@ -20,7 +20,6 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatIconModule } from '@angular/material/icon';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { FormsModule } from '@angular/forms';
-import { FormBuilder } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
@@ -46,7 +45,6 @@ import { ReactiveFormsModule } from '@angular/forms';
     MatIconModule,
     MatPaginatorModule,
     FormsModule,
-    FormBuilder,
     ReactiveFormsModule
   ],
   providers: [],

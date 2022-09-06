@@ -1,72 +1,18 @@
-@import url(https://fonts.googleapis.com/css?family=Oleo+Script:400,700);
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-header{
-    background-color: #e8dbd3;
-    margin-right: 60px;
-    margin-left: 60px;
-    margin-top: 20px;
-}
-.title {
-    font: 100 3em/1 'Oleo Script', cursive;
-    color: #75474a !important;
-    font-size: 30px;
-    text-align: center;
-}
-iframe {
-    margin: 20px;
-}
-.whatsapp {
-    text-align: center;
-    font-size: 20px;
-    margin-left: 90px;
-    margin-top: 10px;
-}
-.facebook {
-    text-align: center;
-    font-size: 20px;
-    margin-left: 90px;
-    margin-top: 10px;
-}
-.email {
-    text-align: center;
-    font-size: 20px;
-    margin-right: 90px;
-    margin-top: 10px;
-}
-.ofice {
-    text-align: center;
-    font-size: 20px;
-    margin-right: 100px;
-    margin-top: 10px;
-}
-i {
-    padding: 5px;
-}
-a {
-    margin: 10px;
-    text-decoration: none;
-    color: #000;
-}
-
 /* form */
 @import url(https://fonts.googleapis.com/css?family=Teko:400,700);
-
-html {
-	height: 100%;
-}
 
 body {
 	font-family: 'Teko', sans-serif
 }
 /*form styles*/
-#formulario-m {
+#contactForm {
 	width: 400px;
 	margin-top: 20px;
 	text-align: center;
 	position: relative;
     margin-bottom: 30px;
 }
-#formulario-m fieldset {
+#contactForm mat-form-field {
 	background: white;
 	border: 0 none;
 	border-radius: 3px;
@@ -80,11 +26,11 @@ body {
 	position: relative;
 }
 /*Hide all except first fieldset*/
-#formulario-m fieldset:not(:first-of-type) {
+#contactForm mat-form-field:not(:first-of-type) {
 	display: none;
 }
 /*inputs*/
-#formulario-m input, #formulario-m textarea, #formulario-m select {
+#contactForm input{
 	padding: 15px;
 	border: 1px solid #ccc;
 	border-radius: 3px;
@@ -96,7 +42,7 @@ body {
 	font-size: 13px;
 }
 /*buttons*/
-#formulario-m .action-button {
+#contactForm .action-button {
 	width: 100px;
 	background: #edd6c9;
 	font-weight: bold;
@@ -107,7 +53,7 @@ body {
 	padding: 10px 5px;
 	margin: 10px 5px;
 }
-#formulario-m .action-button:hover, #forumlario.m .action-button:focus {
+#contactForm .action-button:hover, #contactForm .action-button:focus {
 	box-shadow: 0 0 0 2px white, 0 0 0 3px #edd6c9;
 }
 /*headings*/
@@ -124,24 +70,11 @@ body {
 	margin-bottom: 20px;
 }
 
-/* accordion */
-.accordion {
-    margin-right: 80px;
-    margin-top: 10px;
-    margin-left: 80px;
-    margin-bottom: 20px;
-}
 button {
     font-size: 15px;
     font-family: montserrat;
     background-color: #edd6c9;
     color: black;
 }
-.accordion-header {
-    background-color: #e8dbd3
-}
-.city {
-    font-size: 15px;
-    font-family: montserrat;
-}
+
 

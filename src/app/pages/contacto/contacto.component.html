@@ -1,37 +1,58 @@
-<mat-card class="contact-card">
-    <mat-card-header>
-        <mat-card-title>Regístrate</mat-card-title>
-    </mat-card-header>
-    <mat-card-content>
-        <!--ngform se activa cuando el usuario da click en aceptar
-        ngsubmit especifica qué función ejecutar cuando se envía el formulario-->
-        <form novalidate (ngSubmit)="onSubmit()" #f="ngForm" [formGroup]="form">
-            <mat-form-field>
-                <input matInput placeholder="Nombre" class="form-control" formControlName="nombre" ngModel required>
-            </mat-form-field>
-            <br>
-            <mat-form-field>
-                <input matInput placeholder="Apellido" class="form-control" formControlName="apellido" ngModel required>
-            </mat-form-field>
-            <br>
-            <mat-form-field>
-                <input matInput placeholder="Email" class="form-control" formControlName="email" type="email" ngModel required>
-            </mat-form-field>
-            <br>
-            <mat-form-field>
-                <input matInput placeholder="Contraseña" class="form-control" formControlName="password" type="password" ngModel required minlength="8 caracteres">
-            </mat-form-field>
-            <br>
-            <mat-form-field>
-                <textarea rows="4" cols="50" matInput placeholder="comentario" class="form-control" name="comentario"
-                    ngModel></textarea>
-            </mat-form-field>
-            <br>
-            <button id="submit" mat-raised-button type="submit" color="primary" [disabled]="f.invalid">Aceptar</button>
-            <strong>{{f.value.firstname}} </strong>
-            <strong>{{f.value.lastname}} </strong>
-            <strong>{{f.value.email}} </strong>
-            <strong>{{f.value.message}} </strong>
-        </form>
-    </mat-card-content>
-</mat-card>
+<div class="container">
+    <div class="row-fluid">
+        <div class="col-md-7">
+            <div class="span8">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.464486286312!2d-68.13929828489528!3d-38.959060708209826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960a3336aa90df5f%3A0x4127650bf58575f0!2sJuan%20Juli%C3%A1n%20Lastra%205600%2C%20Q8300JTJ%20Neuqu%C3%A9n!5e0!3m2!1ses!2sar!4v1650736939377!5m2!1ses!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="col-md-5">
+            <mat-card class="contact-card">
+                <mat-card-header>
+                    <mat-card-title class="fs-title">Regístrate</mat-card-title>
+                </mat-card-header>
+                <mat-card-content>
+                    <!--ngform se activa cuando el usuario da click en aceptar
+                    ngsubmit especifica qué función ejecutar cuando se envía el formulario-->
+                    <form id="contactForm" novalidate (ngSubmit)="submit()" #f="ngForm" [formGroup]="form">
+                        <mat-form-field>
+                            <input matInput placeholder="Nombre" class="form-control" formControlName="nombre" ngModel
+                                required>
+                        </mat-form-field>
+                        <br>
+                        <mat-form-field>
+                            <input matInput placeholder="Apellido" class="form-control" formControlName="apellido"
+                                ngModel required>
+                        </mat-form-field>
+                        <br>
+                        <mat-form-field>
+                            <input matInput placeholder="Email" class="form-control" formControlName="email"
+                                type="email" ngModel required>
+                        </mat-form-field>
+                        <br>
+                        <mat-form-field>
+                            <input matInput placeholder="Contraseña" class="form-control" formControlName="password"
+                                type="password" ngModel required minlength="8 caracteres">
+                        </mat-form-field>
+                        <br>
+                        <mat-form-field>
+                            <textarea rows="4" cols="50" matInput placeholder="comentario" class="form-control"
+                                name="comentario" ngModel></textarea>
+                        </mat-form-field>
+                        <br>
+                        <button id="submit" mat-raised-button type="submit" color="primary" class="next action-button"
+                            [disabled]="f.invalid">Aceptar</button>
+                        <strong>{{f.value.firstname}} </strong>
+                        <strong>{{f.value.lastname}} </strong>
+                        <strong>{{f.value.email}} </strong>
+                        <strong>{{f.value.message}} </strong>
+                    </form>
+                </mat-card-content>
+            </mat-card>
+        </div>
+
+    </div>
+</div>
+
