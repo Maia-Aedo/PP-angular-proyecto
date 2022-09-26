@@ -45,192 +45,148 @@
             </div>
         </div>
     </div>
+    <!-- images -->
+    <section class="separador">
+        <div class="container text-center">
+            <div class="row mb-4 align-items-center">
+                <div class="col-sm-4">
+                    <div class="content-box">
+                        <div class="content-box-img">
+                            <a href="#" routerLink="conjuntos">
+                                <img src="../../../assets/img/carousel/conj.png" alt="" width="400" height="400">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="content-box">
+                        <div class="content-box-img">
+                            <a href="#">
+                                <img src="../../../assets/img/carousel/of2.gif" alt="" width="400" height="400">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="content-box">
+                        <div class="content-box-img">
+                            <a href="#" routerLink="contacto">
+                                <img src="../../../assets/img/carousel/conj2.png" alt="" width="400" height="400">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!--parallax 2-->
     <div class="parallax2"></div>
     <!--cards-->
-    <div class="card-info">
+    <div class="container">
         <div class="row">
-            <div class="col-md-4">
-                <mat-card class="example-card">
-                    <mat-card-header>
-                        <mat-card-title>Short Jasmine</mat-card-title>
-                    </mat-card-header>
-                    <img mat-card-image src="../../../assets/img/ropa/ss/verano1.jfif">
-                    <mat-card-subtitle>
-                        <h4>$2690</h4>
-                    </mat-card-subtitle>
-                    <mat-card-content>
-                        {{longText}}
-                    </mat-card-content>
-                    <!--talle-->
-                    <form class="example-form">
-                        <mat-form-field class="example-full-width" appearance="fill">
-                            <mat-label>Ingresa tu talle</mat-label>
-                            <input matInput placeholder="Talle" value="S">
-                        </mat-form-field>
-                    </form>
-                    <!--color-->
-                    <mat-form-field appearance="fill">
-                        <mat-label>Color</mat-label>
-                        <mat-select>
-                            <mat-option value="option1">Beige</mat-option>
-                            <mat-option value="option2" disabled>Rosado</mat-option>
-                            <mat-option value="option3">Azul</mat-option>
-                            <mat-option value="option3">Terracota</mat-option>
-                            <mat-option value="option3">Verde</mat-option>
-                        </mat-select>
-                    </mat-form-field>
-                </mat-card>
+            <div class="col-md-3">
+                <div class="ibox">
+                    <div class="ibox-content product-box">
+                        <div class="product-imitation">
+                        </div>
+                        <div class="product-desc">
+                            <span class="product-price">
+                                <mat-card-subtitle>
+                                    $1990
+                                </mat-card-subtitle>
+                            </span>
+                            <small class="text-muted">Verano</small>
+                            <a href="#" class="product-name">
+                                <mat-card-title>Short Jasmine</mat-card-title></a>
+                            <div class="small m-t-xs">
+                                <mat-card-content>
+                                    {{longText}}
+                                </mat-card-content>
+                            </div>
+                            <div class="m-t text-righ">
+                                <a href="#" class="btn btn-xs btn-outline btn-primary">Info <i class="fa fa-long-arrow-right"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4">
-                <mat-card class="example-card">
-                    <mat-card-header>
-                        <mat-card-title>Vest Lory</mat-card-title>
-                    </mat-card-header>
-                    <img mat-card-image src="../../../assets/img/ropa/ss/verano3.jfif" height="350px">
-                    <mat-card-subtitle>
-                        <h4>$1900</h4>
-                    </mat-card-subtitle>
-                    <mat-card-content>
-                        {{longText2}}
-                    </mat-card-content>
-                    <!--talle-->
-                    <form class="example-form">
-                        <mat-form-field class="example-full-width" appearance="fill">
-                            <mat-label>Ingresa tu talle</mat-label>
-                            <input matInput placeholder="Talle" value="S">
-                        </mat-form-field>
-                    </form>
-                    <!--color-->
-                    <mat-form-field appearance="fill">
-                        <mat-label>Color</mat-label>
-                        <mat-select>
-                            <mat-option value="option1">Lila</mat-option>
-                            <mat-option value="option3">Marrón</mat-option>
-                            <mat-option value="option3">Blanco</mat-option>
-                            <mat-option value="option3" disabled>Verde</mat-option>
-                        </mat-select>
-                    </mat-form-field>
-                </mat-card>
+            <div class="col-md-3">
+                <div class="ibox">
+                    <div class="ibox-content product-box">
+                        <div class="product-imitation">
+                        </div>
+                        <div class="product-desc">
+                            <span class="product-price">
+                                <mat-card-subtitle>
+                                    $10
+                                </mat-card-subtitle>
+                            </span>
+                            <small class="text-muted">Category</small>
+                            <a href="#" class="product-name">
+                                <mat-card-title>Short Jasmine</mat-card-title></a>
+                            <div class="small m-t-xs">
+                                <mat-card-content>
+                                    {{longText}}
+                                </mat-card-content>
+                            </div>
+                            <div class="m-t text-righ">
+                                <a href="#" class="btn btn-xs btn-outline btn-primary">Info <i class="fa fa-long-arrow-right"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4">
-                <mat-card class="example-card">
-                    <mat-card-header>
-                        <mat-card-title>Vest Mary</mat-card-title>
-                    </mat-card-header>
-                    <img mat-card-image src="../../../assets/img/ropa/ss/verano2.png" height="350px">
-                    <mat-card-subtitle>
-                        <h4>$1900</h4>
-                    </mat-card-subtitle>
-                    <mat-card-content>
-                        {{longText3}}
-                    </mat-card-content>
-                    <!--talle-->
-                    <form class="example-form">
-                        <mat-form-field class="example-full-width" appearance="fill">
-                            <mat-label>Ingresa tu talle</mat-label>
-                            <input matInput placeholder="Talle" value="S">
-                        </mat-form-field>
-                    </form>
-                    <!--color-->
-                    <mat-form-field appearance="fill">
-                        <mat-label>Color</mat-label>
-                        <mat-select>
-                            <mat-option value="option1">Beige</mat-option>
-                            <mat-option value="option3">Celeste</mat-option>
-                            <mat-option value="option3">Negro</mat-option>
-                        </mat-select>
-                    </mat-form-field>
-                </mat-card>
+            <div class="col-md-3">
+                <div class="ibox">
+                    <div class="ibox-content product-box">
+                        <div class="product-imitation">
+                        </div>
+                        <div class="product-desc">
+                            <span class="product-price">
+                                <mat-card-subtitle>
+                                    $10
+                                </mat-card-subtitle>
+                            </span>
+                            <small class="text-muted">Category</small>
+                            <a href="#" class="product-name">
+                                <mat-card-title>Short Jasmine</mat-card-title></a>
+                            <div class="small m-t-xs">
+                                <mat-card-content>
+                                    {{longText}}
+                                </mat-card-content>
+                            </div>
+                            <div class="m-t text-righ">
+                                <a href="#" class="btn btn-xs btn-outline btn-primary">Info <i class="fa fa-long-arrow-right"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4">
-                <mat-card class="example-card">
-                    <mat-card-header>
-                        <mat-card-title>Pollera Liz</mat-card-title>
-                    </mat-card-header>
-                    <img mat-card-image src="../../../assets/img/ropa/ss/verano4.jfif" height="350px">
-                    <mat-card-subtitle>
-                        <h4>$2590</h4>
-                    </mat-card-subtitle>
-                    <mat-card-content>
-                        {{longText4}}
-                    </mat-card-content>
-                    <!--talle-->
-                    <form class="example-form">
-                        <mat-form-field class="example-full-width" appearance="fill">
-                            <mat-label>Ingresa tu talle</mat-label>
-                            <input matInput placeholder="Talle" value="34">
-                        </mat-form-field>
-                    </form>
-                    <!--color-->
-                    <mat-form-field appearance="fill">
-                        <mat-label>Color</mat-label>
-                        <mat-select>
-                            <mat-option value="option1">Celeste</mat-option>
-                            <mat-option value="option3">Azul</mat-option>
-                            <mat-option value="option3" disabled>Blanco</mat-option>
-                        </mat-select>
-                    </mat-form-field>
-                </mat-card>
-            </div>
-            <div class="col-md-4">
-                <mat-card class="example-card">
-                    <mat-card-header>
-                        <mat-card-title>Mini Mery</mat-card-title>
-                    </mat-card-header>
-                    <img mat-card-image src="../../../assets/img/ropa/ss/verano5.jfif" height="350px">
-                    <mat-card-subtitle>
-                        <h4>$2800</h4>
-                    </mat-card-subtitle>
-                    <mat-card-content>
-                        {{longText5}}
-                    </mat-card-content>
-                    <!--talle-->
-                    <form class="example-form">
-                        <mat-form-field class="example-full-width" appearance="fill">
-                            <mat-label>Ingresa tu talle</mat-label>
-                            <input matInput placeholder="Talle" value="38">
-                        </mat-form-field>
-                    </form>
-                    <!--color-->
-                    <mat-form-field appearance="fill">
-                        <mat-label>Color</mat-label>
-                        <mat-select>
-                            <mat-option value="option1">Azul</mat-option>
-                            <mat-option value="option3">Bordó</mat-option>
-                            <mat-option value="option3">Blanco</mat-option>
-                            <mat-option value="option3">Negro</mat-option>
-                        </mat-select>
-                    </mat-form-field>
-                </mat-card>
-            </div>
-            <div class="col-md-4">
-                <mat-card class="example-card">
-                    <mat-card-header>
-                        <mat-card-title>Vestido Vanesa</mat-card-title>
-                    </mat-card-header>
-                    <img mat-card-image src="../../../assets/img/ropa/ss/verano6.jfif" height="350px">
-                    <mat-card-subtitle>
-                        <h4>$3600</h4>
-                    </mat-card-subtitle>
-                    <mat-card-content>
-                        {{longText6}}
-                    </mat-card-content>
-                    <!--talle-->
-                    <form class="example-form">
-                        <mat-form-field class="example-full-width" appearance="fill">
-                            <mat-label>Ingresa tu talle</mat-label>
-                            <input matInput placeholder="Talle" value="Talle único (S)">
-                        </mat-form-field>
-                    </form>
-                    <!--color-->
-                    <mat-form-field appearance="fill">
-                        <mat-label>Color</mat-label>
-                        <mat-select>
-                            <mat-option value="option1">Rosado</mat-option>
-                        </mat-select>
-                    </mat-form-field>
-                </mat-card>
+            <div class="col-md-3">
+                <div class="ibox">
+                    <div class="ibox-content product-box">
+                        <div class="product-imitation">
+                        </div>
+                        <div class="product-desc">
+                            <span class="product-price">
+                                <mat-card-subtitle>
+                                    $10
+                                </mat-card-subtitle>
+                            </span>
+                            <small class="text-muted">Category</small>
+                            <a href="#" class="product-name">
+                                <mat-card-title>Short Jasmine</mat-card-title></a>
+                            <div class="small m-t-xs">
+                                <mat-card-content>
+                                    {{longText}}
+                                </mat-card-content>
+                            </div>
+                            <div class="m-t text-righ">
+                                <a href="#" class="btn btn-xs btn-outline btn-primary">Info <i class="fa fa-long-arrow-right"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -244,188 +200,217 @@
     <!--parallax 2-->
     <div class="parallax3"></div>
     <!--cards-->
-    <div class="card-info">
+    <div class="container">
         <div class="row">
-            <div class="col-md-4">
-                <mat-card class="example-card">
-                    <mat-card-header>
-                        <mat-card-title>Sweater Lara</mat-card-title>
-                    </mat-card-header>
-                    <img mat-card-image src="../../../assets/img/ropa/fw/invierno1.jfif" height="350px">
-                    <mat-card-subtitle>
-                        <h4>$1200</h4>
-                    </mat-card-subtitle>
-                    <mat-card-content>
-                        {{longText7}}
-                    </mat-card-content>
-                    <!--talle-->
-                    <form class="example-form">
-                        <mat-form-field class="example-full-width" appearance="fill">
-                            <mat-label>Ingresa tu talle</mat-label>
-                            <input matInput placeholder="Talle" value="Talle único (M)">
-                        </mat-form-field>
-                    </form>
-                    <!--color-->
-                    <mat-form-field appearance="fill">
-                        <mat-label>Color</mat-label>
-                        <mat-select>
-                            <mat-option value="option1">Negro</mat-option>
-                            <mat-option value="option3">Rosa</mat-option>
-                            <mat-option value="option3">Marrón</mat-option>
-                        </mat-select>
-                    </mat-form-field>
-                </mat-card>
+            <div class="col-md-3">
+                <div class="ibox">
+                    <div class="ibox-content product-box">
+                        <div class="product-imitation">
+                        </div>
+                        <div class="product-desc">
+                            <span class="product-price">
+                                <mat-card-subtitle>
+                                    $10
+                                </mat-card-subtitle>
+                            </span>
+                            <small class="text-muted">Category</small>
+                            <a href="#" class="product-name">
+                                <mat-card-title>Short Jasmine</mat-card-title></a>
+                            <div class="small m-t-xs">
+                                <mat-card-content>
+                                    {{longText}}
+                                </mat-card-content>
+                            </div>
+                            <div class="m-t text-righ">
+                                <a href="#" class="btn btn-xs btn-outline btn-primary">Info <i class="fa fa-long-arrow-right"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4">
-                <mat-card class="example-card">
-                    <mat-card-header>
-                        <mat-card-title>Jardinero Molly</mat-card-title>
-                    </mat-card-header>
-                    <img mat-card-image src="../../../assets/img/ropa/fw/invierno2.jfif" height="350px">
-                    <mat-card-subtitle>
-                        <h4>$1490</h4>
-                    </mat-card-subtitle>
-                    <mat-card-content>
-                        {{longText8}}
-                    </mat-card-content>
-                    <!--talle-->
-                    <form class="example-form">
-                        <mat-form-field class="example-full-width" appearance="fill">
-                            <mat-label>Ingresa tu talle</mat-label>
-                            <input matInput placeholder="Talle" value="38">
-                        </mat-form-field>
-                    </form>
-                    <!--color-->
-                    <mat-form-field appearance="fill">
-                        <mat-label>Color</mat-label>
-                        <mat-select>
-                            <mat-option value="option3">Negro</mat-option>
-                            <mat-option value="option3">Blanco</mat-option>
-                        </mat-select>
-                    </mat-form-field>
-                </mat-card>
+            <div class="col-md-3">
+                <div class="ibox">
+                    <div class="ibox-content product-box">
+                        <div class="product-imitation">
+                        </div>
+                        <div class="product-desc">
+                            <span class="product-price">
+                                <mat-card-subtitle>
+                                    $10
+                                </mat-card-subtitle>
+                            </span>
+                            <small class="text-muted">Category</small>
+                            <a href="#" class="product-name">
+                                <mat-card-title>Short Jasmine</mat-card-title></a>
+                            <div class="small m-t-xs">
+                                <mat-card-content>
+                                    {{longText}}
+                                </mat-card-content>
+                            </div>
+                            <div class="m-t text-righ">
+                                <a href="#" class="btn btn-xs btn-outline btn-primary">Info <i class="fa fa-long-arrow-right"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4">
-                <mat-card class="example-card">
-                    <mat-card-header>
-                        <mat-card-title>Remera Nelly</mat-card-title>
-                    </mat-card-header>
-                    <img mat-card-image src="../../../assets/img/ropa/fw/invierno3.jfif" height="350px">
-                    <mat-card-subtitle>
-                        <h4>$940</h4>
-                    </mat-card-subtitle>
-                    <mat-card-content>
-                        {{longText9}}
-                    </mat-card-content>
-                    <!--talle-->
-                    <form class="example-form">
-                        <mat-form-field class="example-full-width" appearance="fill">
-                            <mat-label>Ingresa tu talle</mat-label>
-                            <input matInput placeholder="Talle" value="S">
-                        </mat-form-field>
-                    </form>
-                    <!--color-->
-                    <mat-form-field appearance="fill">
-                        <mat-label>Color</mat-label>
-                        <mat-select>
-                            <mat-option value="option1">Blanco</mat-option>
-                            <mat-option value="option3">Rosado</mat-option>
-                            <mat-option value="option3">Marrón</mat-option>
-                        </mat-select>
-                    </mat-form-field>
-                </mat-card>
+            <div class="col-md-3">
+                <div class="ibox">
+                    <div class="ibox-content product-box">
+                        <div class="product-imitation">
+                        </div>
+                        <div class="product-desc">
+                            <span class="product-price">
+                                <mat-card-subtitle>
+                                    $10
+                                </mat-card-subtitle>
+                            </span>
+                            <small class="text-muted">Category</small>
+                            <a href="#" class="product-name">
+                                <mat-card-title>Short Jasmine</mat-card-title></a>
+                            <div class="small m-t-xs">
+                                <mat-card-content>
+                                    {{longText}}
+                                </mat-card-content>
+                            </div>
+                            <div class="m-t text-righ">
+                                <a href="#" class="btn btn-xs btn-outline btn-primary">Info <i class="fa fa-long-arrow-right"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4">
-                <mat-card class="example-card">
-                    <mat-card-header>
-                        <mat-card-title>Pulover Venice</mat-card-title>
-                    </mat-card-header>
-                    <img mat-card-image src="../../../assets/img/ropa/fw/invierno4.jfif" height="350px">
-                    <mat-card-subtitle>
-                        <h4>$1699</h4>
-                    </mat-card-subtitle>
-                    <mat-card-content>
-                        {{longText10}}
-                    </mat-card-content>
-                    <!--talle-->
-                    <form class="example-form">
-                        <mat-form-field class="example-full-width" appearance="fill">
-                            <mat-label>Ingresa tu talle</mat-label>
-                            <input matInput placeholder="Talle" value=" Talle único (M)">
-                        </mat-form-field>
-                    </form>
-                    <!--color-->
-                    <mat-form-field appearance="fill">
-                        <mat-label>Color</mat-label>
-                        <mat-select>
-                            <mat-option value="option1">Rosado</mat-option>
-                            <mat-option value="option3">Lila</mat-option>
-                            <mat-option value="option3" disabled>Beige</mat-option>
-                        </mat-select>
-                    </mat-form-field>
-                </mat-card>
+            <div class="col-md-3">
+                <div class="ibox">
+                    <div class="ibox-content product-box">
+                        <div class="product-imitation">
+                        </div>
+                        <div class="product-desc">
+                            <span class="product-price">
+                                <mat-card-subtitle>
+                                    $10
+                                </mat-card-subtitle>
+                            </span>
+                            <small class="text-muted">Category</small>
+                            <a href="#" class="product-name">
+                                <mat-card-title>Short Jasmine</mat-card-title></a>
+                            <div class="small m-t-xs">
+                                <mat-card-content>
+                                    {{longText}}
+                                </mat-card-content>
+                            </div>
+                            <div class="m-t text-righ">
+                                <a href="#" class="btn btn-xs btn-outline btn-primary">Info <i class="fa fa-long-arrow-right"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4">
-                <mat-card class="example-card">
-                    <mat-card-header>
-                        <mat-card-title>Pantalón Olivia</mat-card-title>
-                    </mat-card-header>
-                    <img mat-card-image src="../../../assets/img/ropa/fw/invierno5.jfif" height="350px">
-                    <mat-card-subtitle>
-                        <h4>$1790</h4>
-                    </mat-card-subtitle>
-                    <mat-card-content>
-                        {{longText11}}
-                    </mat-card-content>
-                    <!--talle-->
-                    <form class="example-form">
-                        <mat-form-field class="example-full-width" appearance="fill">
-                            <mat-label>Ingresa tu talle</mat-label>
-                            <input matInput placeholder="Talle" value="36">
-                        </mat-form-field>
-                    </form>
-                    <!--color-->
-                    <mat-form-field appearance="fill">
-                        <mat-label>Color</mat-label>
-                        <mat-select>
-                            <mat-option value="option1">Mostaza</mat-option>
-                            <mat-option value="option3">Bordó</mat-option>
-                            <mat-option value="option3">Gris</mat-option>
-                            <mat-option value="option3">Negro</mat-option>
-                        </mat-select>
-                    </mat-form-field>
-                </mat-card>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="ibox">
+                    <div class="ibox-content product-box">
+                        <div class="product-imitation">
+                        </div>
+                        <div class="product-desc">
+                            <span class="product-price">
+                                <mat-card-subtitle>
+                                    $10
+                                </mat-card-subtitle>
+                            </span>
+                            <small class="text-muted">Category</small>
+                            <a href="#" class="product-name">
+                                <mat-card-title>Short Jasmine</mat-card-title></a>
+                            <div class="small m-t-xs">
+                                <mat-card-content>
+                                    {{longText}}
+                                </mat-card-content>
+                            </div>
+                            <div class="m-t text-righ">
+                                <a href="#" class="btn btn-xs btn-outline btn-primary">Info <i class="fa fa-long-arrow-right"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4">
-                <mat-card class="example-card">
-                    <mat-card-header>
-                        <mat-card-title>Pulover Lula</mat-card-title>
-                    </mat-card-header>
-                    <img mat-card-image src="../../../assets/img/ropa/fw/invierno6.jfif" height="350px">
-                    <mat-card-subtitle>
-                        <h4>$1690</h4>
-                    </mat-card-subtitle>
-                    <mat-card-content>
-                        {{longText12}}
-                    </mat-card-content>
-                    <!--talle-->
-                    <form class="example-form">
-                        <mat-form-field class="example-full-width" appearance="fill">
-                            <mat-label>Ingresa tu talle</mat-label>
-                            <input matInput placeholder="Talle" value="Talle único (L)">
-                        </mat-form-field>
-                    </form>
-                    <!--color-->
-                    <mat-form-field appearance="fill">
-                        <mat-label>Color</mat-label>
-                        <mat-select>
-                            <mat-option value="option1">Rosado</mat-option>
-                            <mat-option value="option1" disabled>Blanco</mat-option>
-                            <mat-option value="option1">Negro</mat-option>
-                            <mat-option value="option1">Celeste</mat-option>
-                        </mat-select>
-                    </mat-form-field>
-                </mat-card>
+            <div class="col-md-3">
+                <div class="ibox">
+                    <div class="ibox-content product-box">
+                        <div class="product-imitation">
+                        </div>
+                        <div class="product-desc">
+                            <span class="product-price">
+                                <mat-card-subtitle>
+                                    $10
+                                </mat-card-subtitle>
+                            </span>
+                            <small class="text-muted">Category</small>
+                            <a href="#" class="product-name">
+                                <mat-card-title>Short Jasmine</mat-card-title></a>
+                            <div class="small m-t-xs">
+                                <mat-card-content>
+                                    {{longText}}
+                                </mat-card-content>
+                            </div>
+                            <div class="m-t text-righ">
+                                <a href="#" class="btn btn-xs btn-outline btn-primary">Info <i class="fa fa-long-arrow-right"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="ibox">
+                    <div class="ibox-content product-box">
+                        <div class="product-imitation">
+                        </div>
+                        <div class="product-desc">
+                            <span class="product-price">
+                                <mat-card-subtitle>
+                                    $10
+                                </mat-card-subtitle>
+                            </span>
+                            <small class="text-muted">Category</small>
+                            <a href="#" class="product-name">
+                                <mat-card-title>Short Jasmine</mat-card-title></a>
+                            <div class="small m-t-xs">
+                                <mat-card-content>
+                                    {{longText}}
+                                </mat-card-content>
+                            </div>
+                            <div class="m-t text-righ">
+                                <a href="#" class="btn btn-xs btn-outline btn-primary">Info <i class="fa fa-long-arrow-right"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="ibox">
+                    <div class="ibox-content product-box">
+                        <div class="product-imitation">
+                        </div>
+                        <div class="product-desc">
+                            <span class="product-price">
+                                <mat-card-subtitle>
+                                    $10
+                                </mat-card-subtitle>
+                            </span>
+                            <small class="text-muted">Category</small>
+                            <a href="#" class="product-name">
+                                <mat-card-title>Short Jasmine</mat-card-title></a>
+                            <div class="small m-t-xs">
+                                <mat-card-content>
+                                    {{longText}}
+                                </mat-card-content>
+                            </div>
+                            <div class="m-t text-righ">
+                                <a href="#" class="btn btn-xs btn-outline btn-primary">Info <i class="fa fa-long-arrow-right"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
